@@ -10,8 +10,6 @@
 #import "UIFont+Extension.h"
 
 @interface NactroHeaderView()
-@property (nonatomic, strong)UILabel *nameLabel;
-@property (nonatomic, strong)UILabel *devNameLabel;
 @end
 @implementation NactroHeaderView
 - (instancetype)initWithTweakName:(NSString *)tweakName devTeamName:(NSString *)devTeamName backgroundColor:(UIColor *)color{
